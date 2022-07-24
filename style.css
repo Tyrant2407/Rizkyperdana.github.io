@@ -12,12 +12,12 @@
 }
 .wrapper .menu-btn{
   position: absolute;
-  left: 20px;
-  top: 10px;
-  background: #870b68;
-  color: #fff;
-  height: 45px;
-  width: 45px;
+  left: 25px;
+  top: 25px;
+  background: #9c0e32;
+  color: rgb(255, 255, 255);
+  height: 60px;
+  width: 60px;
   z-index: 9999;
   border: 1px solid #333;
   border-radius: 5px;
@@ -25,16 +25,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
+  transition: all 2s ease;
 }
 #btn:checked ~ .menu-btn{
   left: 247px;
 }
 .wrapper .menu-btn i{
   position: absolute;
-  transform: ;
-  font-size: 23px;
-  transition: all 0.3s ease;
+  transform: matrix(1) translate(-5%, -5%);
+  font-size: 27px;
+  transition: all 2s ease;
 }
 .wrapper .menu-btn i.fa-times{
   opacity: 0;
@@ -54,16 +54,16 @@
   width: 270px;
   overflow: hidden;
   left: -270px;
-  transition: all 0.3s ease;
+  transition: all 1.5s ease;
 }
 #btn:checked ~ #sidebar{
   left: 0;
 }
 #sidebar .title{
-  line-height: 65px;
+  line-height: 75px;
   text-align: center;
   background: rgb(185, 11, 156);
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 600;
   color: #eeeeee;
   border-bottom: 1px solid #222;
@@ -85,7 +85,7 @@
 #sidebar .list-items li:hover{
   border-top: 1px solid transparent;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 0px 10px 3px #870b68;
+  box-shadow: 0 0px 10px 3px #e7e6e7;
 }
 #sidebar .list-items li:first-child{
   border-top: none;
@@ -116,14 +116,14 @@
 #sidebar .list-items .icons a{
   height: 100%;
   width: 40px;
-  display: block;
+  display: inline-block;
   margin: 0 5px;
   font-size: 18px;
   color: #f2f2f2;
-  background: #4a4a4a;
+  background: #4b4949;
   border-radius: 5px;
   border: 1px solid #383838;
-  transition: all 0.3s ease;
+  transition: all 2s ease;
 }
 #sidebar .list-items .icons a:hover{
   background: #404040;
@@ -136,7 +136,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  color: #202020;
+  color: #cf1212;
   z-index: -1;
   width: 100%;
   text-align: center;
@@ -150,7 +150,8 @@
   font-weight: 700;
 }
 body{
-    background-repeat: repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
     
 }
+
